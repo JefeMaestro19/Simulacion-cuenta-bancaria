@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank Account Simulation</title>
+  </head>
+  <body>
+    <h1>Simulacion cuenta de banco</h1>
+
+    <div id="login">
+      <h2>Ingresar</h2>
+      <p>Usuario: <input type="text" id="username" /></p>
+      <p>Contraseña: <input type="password" id="password" /></p>
+      <button id="login-button">Entrar</button>
+    </div>
+
+    <div id="account" style="display: none">
+      <h2 id="account-name"></h2>
+      <p>Balance: <span id="balance"></span></p>
+      <button id="deposit">Depositar</button>
+      <button id="withdraw">Retirar</button>
+      <button id="logout-button">Cerrar sesión</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
